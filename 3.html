@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank you</title>
+    <link rel="stylesheet" href="css/lastpage.css" />
+  </head>
+  <body>
+    <div id="thankyou"><b>Claim Your Free coupons!</b></div>
+    <br />
+    <div style="display: flex; position: relative;" class="rcorners1" id="d1">
+      <button class="button" id="c1" style="align-items: center;">Claim!</button>
+      <h1 style="padding-left: 50px;">One free Win an Argument</h1>
+    </div>
+    <br>
+    <div style="display: flex; position: relative;" class="rcorners1" id="d2">
+      <button class="button" id="c2" style="align-items: center;">Claim!</button>
+      <h1 style="padding-left: 50px;">One free Make Me Do Anything</h1>
+    </div>
+    <br>
+    <div style="display: flex; position: relative;" class="rcorners1" id="d3">
+      <button class="button" id="c3" style="align-items: center;">Claim!</button>
+      <h1 style="padding-left: 50px;">One free Wild Card</h1>
+    </div>
+    <br>
+    <p id="small">Offer valid on online requests made before 06/21/2027. To redeem online promotion code your priorities must be entered at checkout and is valid for one-time use only. Sales tax, shipping & handling do not qualify for discount. This offer is not redeemable for cash or gift cards, nor is it valid toward previous purchases. Offer may not be combined with any other coupons, discounts, offers, or promotions. Void if altered, copied, transferred, auctioned or sold. Offer valid on me only. No rain checks issued. Offer not valid for prior purchases. Other restrictions may apply. Value: immeasurable.</p> 
+    <script>
+    const c1 = document.getElementById('c1');
+    const c2 = document.getElementById('c2');
+    const c3 = document.getElementById('c3');
+    c1.addEventListener("click" , function () {
+      document.getElementById('d1').style.display="none";
+      document.getElementById('d1').style.visibility= "hidden";
+        });
+        c2.addEventListener("click" , function () {
+      document.getElementById('d2').style.display="none";
+      document.getElementById('d2').style.visibility= "hidden";
+        });
+        c3.addEventListener("click" , function () {
+      document.getElementById('d3').style.display="none";
+      document.getElementById('d3').style.visibility= "hidden";
+        });
+    
+    </script>
+  </body>
+</html>
